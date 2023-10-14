@@ -53,7 +53,7 @@ body {
 .description p {
     font-family: 'Montserrat',sans-serif;
     padding-top: 15px;
-    padding-left: 22px;
+    padding-left: 30px;
     color: var(--Darkgrayishblue);
     word-spacing: 2px;
     line-height: 27px;
@@ -66,10 +66,18 @@ body {
     font-weight: bolder;
     font-size: 30px;
     padding-top: 7px;
-    padding-left: 22px;
+    padding-left: 30px;
 
 
 }
+
+#perfume {
+    font-family:'Montserrat', sans-serif;
+    color: var(--Darkgrayishblue);
+    padding-top: 10px;
+    letter-spacing: 6px;
+}
+
 
 .box {
     height: 160px;
@@ -92,16 +100,9 @@ body {
 .price h1 {
     color: var(--Darkcyan);
     margin-top: 12px;
-    margin-left: 10px;
+    margin-left: 6px;
 
 }
-
-#perfume {
-    font-family:'Montserrat', sans-serif;
-    color: var(--Darkgrayishblue);
-    letter-spacing: 6px;
-}
-
 
 .cart {
     font-family: 'Montserrat', sans-serif;
@@ -140,4 +141,10 @@ body {
 
 .attribution a:hover {
     color: var(--Darkgrayishblue)
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px) {
+    body {
+        background-color: blue;
+    }
 }
